@@ -20,7 +20,6 @@ This is a Flutter-based stock market search app that allows users to authenticat
 - **Networking:** Dio
 - **Local Storage:** SharedPreferences 
 
-
 ## 📦 Dependencies
 Ensure you have the following dependencies installed:
 ```yaml
@@ -37,5 +36,26 @@ dependencies:
   cached_network_image: ^3.4.1
   jwt_decoder: ^2.0.1
   shimmer: ^3.0.0
+```
 
+## 📸 Demo Video
+A demo video showcasing the app's functionality is available on Google Drive. You can watch it here:
+[Demo Video](https://drive.google.com/file/d/1yhj-cj2qy-t6Lqupqy1EZNCJ3l3Irq39/view?usp=sharing)
+
+## 🚀 Getting Started
+### 1️⃣ Clone the Repository
+```sh
+git clone <repository_link>
+cd flutter_stock_search
+```
+
+### 2️⃣ Install Dependencies
+```sh
+flutter pub get
+```
+
+### 4️⃣ Run the Application
+```sh
+flutter run
+```
 
