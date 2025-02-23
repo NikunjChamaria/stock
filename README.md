@@ -18,7 +18,7 @@ This is a Flutter-based stock market search app that allows users to authenticat
 - **Dart**
 - **State Management:** Riverpod
 - **Networking:** Dio
-- **Local Storage:** Secure Storage / SharedPreferences / Hive
+- **Local Storage:** SharedPreferences 
 
 
 ## 📦 Dependencies
