@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -41,7 +42,9 @@ class StockRepository {
           .map((json) => StockModel.fromJson(json))
           .toList();
     } catch (e) {
-      return [];
+      Get.snackbar("Error", "Something went wrong when fetchung the results",
+          backgroundColor: Colors.red);
+      rethrow;
     }
   }
 

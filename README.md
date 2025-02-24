@@ -46,7 +46,7 @@ A demo video showcasing the app's functionality is available on Google Drive. Yo
 ### 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/NikunjChamaria/stock
-cd flutter_stock_search
+cd stock
 ```
 
 ### 2️⃣ Install Dependencies
